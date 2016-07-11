@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="BadgeView">
+        <attr name="badgeColor" format="color"/>
+        <attr name="badgeLabel" format="string"/>
+        <attr name="labelColor" format="color"/>
+    </declare-styleable>
+</resources>
