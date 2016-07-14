@@ -3,7 +3,7 @@
 Add a **Badge** to your bottom navigation(similar to iOS) with this custom view
 This is strictly for in-app notification badges. If you are looking for app icon notification badges, head to the [Notifications class](https://developer.android.com/reference/android/app/Notification.html)
 
-![The Badge View being used for tabs in bottom navigation](https://www.flickr.com/photos/143175750@N05/shares/8G0iDi)
+![The Badge View being used for tabs in bottom navigation](https://flic.kr/p/JGm6vJ)
 ###Installation
 1. Add the _attrs.xml_ file to the values folder
 2. Add this line to the parent layout  
