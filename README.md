@@ -1,1 +1,1 @@
-<h1>**Android - Badge View**</h1>
+<h1><b>Android - Badge View</b></h1>
