@@ -3,12 +3,12 @@
 Add a **Badge** to your bottom navigation(similar to iOS) with this custom view
 This is strictly for in-app notification badges. If you are looking for app icon notification badges, head to the [Notifications class](https://developer.android.com/reference/android/app/Notification.html)
 
-![The Badge View being used for tabs in bottom navigation](https://flic.kr/p/JGm6vJ)
+![The Badge View being used for tabs in bottom navigation](https://github.com/vijayj3/android-BadgeView/blob/master/screenshots/BadgeViewScreenshot.png)
 ###Installation
-1. Add the _attrs.xml_ file to the values folder
-2. Add this line to the parent layout  
+1. Add the [_attrs.xml_](https://github.com/vijayj3/android-BadgeView/blob/master/attrs.xml) file to the values folder
+2. Add this line to the parent layout (layout it is being applied to)  
 xmlns:custom="http://schemas.android.com/apk/res-auto"
-3. Add the package _BadgeView.java_ to your source project in order to use the package
+3. Add the package [_com.vijay.BadgeView.java_](https://github.com/vijayj3/android-BadgeView/blob/master/com/vijay/BadgeView.java) to your source project in the _java_ folder in order to use the package
 
 ###Usage
 **_Note: It extends the image view class therefore it can make use of image view attributes too_**
@@ -19,7 +19,7 @@ It can be done in the following preferable ways:
 
     ```xml
 <com.vijay.BadgeView
-                    android:id="@+id/badge_view5"
+                    android:id="@+id/badge_view"
                     android:layout_width="80dp"
                     android:layout_height="56dp"
                     android:layout_weight="2"
