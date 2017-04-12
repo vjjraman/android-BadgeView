@@ -22,7 +22,7 @@ It can be done in the following preferable ways:
 
 1. Add the custom _BadgeView_ to the layout
 
-    ```xml
+```xml
 <com.vijay.BadgeView
                     android:id="@+id/badge_view"
                     android:layout_width="80dp"
@@ -33,13 +33,13 @@ It can be done in the following preferable ways:
                     custom:badgeColor="#b71c1c"
                     custom:badgeLabel="11"
                     custom:labelColor="#FFFFFF" />
-    ```
+```
 By giving required values to the attributes _badgeColor, badgeLabel, labelColor_. These values will decide
 the badges' color and label and also the labels' color.
 
 2. Inflate view from layout into destination layout or tabs(For bottom navigation)
 
-    ```java
+```java
 LayoutInflater inflater = LayoutInflater.from(this);
 View view = inflater.inflate(mLayout, null);
 BadgeView badgeView =(BadgeView) view.findViewById(mElement);
@@ -47,6 +47,6 @@ badgeView.setImageResource(imgRes);
 badgeView.setBadgeColor("#FFFFFF");
 badgeView.setLabelColor("#FFFFFF");
 badgeView.setLabelText("XYZ");
-    ```
+```
 
     Inflate the view on a fragement tab or a tab layout in order to use the custom view.
